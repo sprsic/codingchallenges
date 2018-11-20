@@ -31,8 +31,8 @@ func main() {
 	fmt.Printf("Serialized DFS tree:  %v \n", serializeDFS(&tree, []int{}))
 	fmt.Printf("Serialized BFS tree:  %v \n", serializeBFS(&tree, []int{}))
 
-	deserialisedTree := deserializeNode(arrayOfNodes)
-	fmt.Printf("Deserialised tree:    %v \n", serializeDFS(deserialisedTree, []int{}))
+	deserializedTree := deserializeNode(arrayOfNodes)
+	fmt.Printf("Deserialized tree:    %v \n", serializeDFS(deserializedTree, []int{}))
 }
 
 // DFS
