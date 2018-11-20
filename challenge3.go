@@ -5,7 +5,7 @@ import (
 )
 
 /*
-Given the root to a binary tree, implement serialize(root), which serializes the tree into a array, and deserialize(s), which deserializes the array back into the tree.
+Given the root to a binary tree, implement serialize, which serializes the tree into a array, and deserialize , which deserializes the array back into the tree.
 
 For example, given the following Node class
 
